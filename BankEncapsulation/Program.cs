@@ -6,13 +6,15 @@ using BankEncapsulation;
         //var currentBalance = account.GetBalance();
 
         BankAccount myAccount = new BankAccount();
-        
-        //start loop here if statement - 
-        Console.WriteLine("Welcome to Text2Bank!");
-        Console.WriteLine("Enter 1 to check your balance, or 2 to deposit money.");
-            
-        string userInput = Console.ReadLine();
-            
+
+        while (true)
+        {
+
+            Console.WriteLine("Welcome to Text2Bank!");
+            Console.WriteLine("Enter 1 to check your balance, or 2 to deposit money.");
+
+            string userInput = Console.ReadLine();
+
             if (userInput == "1")
             {
                 myAccount.GetBalance();
@@ -25,5 +27,5 @@ using BankEncapsulation;
             {
                 Console.WriteLine("Invalid entry. Restart program to try again.");
             }
-
+        }
 
