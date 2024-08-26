@@ -1,3 +1,6 @@
+Note from Mariah: 
+After completing the exercise, I went back and added some easter eggs. See if you can find the 4 secret deposit amounts. 
+
 ## Exercise 1:
 
 Create a new public class named BankAccount
